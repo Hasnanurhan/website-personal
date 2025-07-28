@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h5 {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(0,255,255,0.5);
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn-outline-info {
+  color: #00e6e6;
+  border-color: #00e6e6;
+}
+
+.btn-outline-info:hover {
+  background-color: #00e6e6;
+  color: #000;
+}
+
+.btn-outline-primary {
+  color: #3399ff;
+  border-color: #3399ff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3399ff;
+  color: #fff;
+}
+
+.btn-outline-warning {
+  color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.btn-outline-success {
+  color: #00ff99;
+  border-color: #00ff99;
+}
+
+.btn-outline-success:hover {
+  background-color: #00ff99;
+  color: #000;
+}
+
+.card-glow {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.1), 0 0 8px rgba(0, 255, 255, 0.2);
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+ul::-webkit-scrollbar {
+  width: 6px;
+}
+ul::-webkit-scrollbar-thumb {
+  background-color: rgba(0,255,255,0.5);
+  border-radius: 5px;
+}
+
+canvas {
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 10px;
+}
